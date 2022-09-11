@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  body{
+    height: 100vh;
+    width: 100%;
+    background-color:  rgb(235, 228, 228);
+  }
+
+  header {
+    width: 100%;
+    position: sticky; top: 0px;
+    height: 150px;
+    display: flex;
+    background-color: rgb(150, 148, 148);
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+  }
+
+  .logo-black {
+    height: 135px;
+    width: 340px;
+    background-image: url(./img/logo-black.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1%;
+    border-radius: 36px;
+  }
+
+  header .nav-header {
+    width: 350px;
+    max-width: 100%;
+  }
+
+  header .nav-header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  }
+
+  header .nav-header li {
+    display: inline;
+    background-color: black;
+    padding: 5px;
+    border-radius: 7px;
+    width: 130px;
+    text-align: center;
+    font-family: 'Lobster', 'cursive';
+    
+  }
+
+  header .nav-header a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+  }
+
+.big-link {
+  width: 100%;
+  height: 532px;
+}
+.big-link img {
+  height: 532px;
+  width: 100%;
+
+}
+
+section.cards {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 30px;
+ 
+}
+
+section.cards h1 {
+  font-family: 'Lobster';
+  width: 100%;
+  height: 80px;
+  text-align:center;
+  font-size: 36px;
+  padding-top: 35px;
+  
+}
+
+section.cards .card{
+  width: 265px;
+  height: 312px;
+  margin: 0px 10px;
+  
+}
+
+section.cards .card .card-head{
+  width: 265px;
+  height: 268.86px;
+  border: 2px solid;
+  border-radius: 5px;
+  
+}
+
+section.cards .card .card-head img{
+  width: 100%;
+  height: 100%;
+}
+
+section.cards .card .info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+  font-family: 'Lobster';
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+}
+
+
+section.cards .card .info p {
+  width: 100%;
+  margin-top: 10px;
+  font-weight: bolder;
+  font-size: large;
+  font-family: 'Roboto';
+  
+}
+
+section.video-lupo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: normal;
+  font-size: 20px;
+  font-family: 'Lobster';
+  gap: 40px;
+  margin: 70px 0px;
+  max-width: 100%;
+  
+}
+footer{
+  background-color: rgb(150, 148, 148);
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+footer i img {
+  height: 100px;
+  width: 100px;
+}
+
+@media (max-width: 768px) {
+  
+  header {
+    height: fit-content;
+    flex-direction: column;
+    gap: 24px;
+    padding: 30px;
+  }
+
+  header ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cards {
+    flex-direction: column;
+    align-items:center;
+  }
+
+
+}  
+
+
+
+  
+
+  
