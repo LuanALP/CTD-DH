@@ -1,0 +1,30 @@
+.navbar-custom {
+    background-color: gray;
+}
+
+.navbar-custom a {
+    color: rgb(233, 231, 231);
+}
+
+.navbar-custom a:hover {
+
+    color: white;
+}
+
+.main-content {
+
+
+}
+
+.main-content .welcome {
+    background-color: #202020;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content .welcome h1 {
+    color: white;
+}
+

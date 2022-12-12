@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@keyframes animation-background-body {
+
+    0% {
+
+        background-color: #202020;
+
+    }
+
+    50% {
+
+        background-color: aqua;
+
+    }
+
+    100% {
+
+        background-color: aquamarine;
+    }
+
+}
+
+body {
+
+    /*background-color: #202020;*/
+    animation-name: animation-background-body;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation-intro-header {
+
+    0% {
+
+        top: -90px;
+        opacity: 0.5;
+
+    }
+
+    100% {
+
+        top: 0;
+        opacity: 1;
+
+    }
+    
+}
+
+header {
+    height: 90px;
+    background-color: black;
+    position: relative;
+    animation-name: animation-intro-header;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+
+}
+
+.welcome-section {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@keyframes animation-intro {
+
+    0%{
+
+        opacity: 0;
+        transform: scale(3) /* skew/translate/rotate - utilizar deg ou px no caso de translate*/;
+
+    }
+
+    100%{
+
+        opacity: 1;
+    }
+    
+}
+
+.welcome-section h1 {
+    
+    opacity: 0;
+    color: black;
+    font-size: 45px;
+    animation-name: animation-intro;
+    animation-delay: 1.5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    
+}
