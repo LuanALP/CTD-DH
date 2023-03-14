@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: rgb(219, 219, 219);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header button {
+  background-color: whitesmoke;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-radius: 10px;
+}
+
+header h1 {
+  padding: .5em 1em;
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+  color: black;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: 2em 10%;
+}
+
+.item {
+  width: 30em;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 1.5em;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  text-align: justify;
+}
+.form-container {
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  border: 3px solid rgb(75, 71, 71);
+  padding: 20px;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 10px;
+  
+}
+
+.form-title {
+  
+  text-align: center;
+
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+}
+
+.form-group {
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+input,
+textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button[type="button"] {
+  background-color: rgb(219, 219, 219);
+  color: black;
+  padding: 10px 20px;
+  border: 2px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 110px
+  
+  
+}
+/*
+.form-container{
+  margin: 10px 300px;
+  display: inline-block;
+  text-align: center;
+  
+  padding: 10px;
+  width: 30%;
+  background-color: white;
+
+
+}
+
+
+#meu-form {
+
+  
+
+}
+
+#meu-form label {
+  display: inline-block;
+  width: 120px; 
+  text-align: right;
+  margin-right: 10px;
+
+}
+*/
+
+
+.item img {
+  width: 100%;
+}
+
+.item h2 {
+  font-size: 1em;
+  margin-bottom: .2em;
+}
+
+body.dark {
+  background-color: rgb(39, 39, 39);
+  transition: .5s;
+}
+
+.dark button {
+
+  background-color: black;
+  color: white;
+  border-color: white;
+
+}
+
+.dark h1 { 
+  background-color: rgb(19, 19, 19);
+  color: rgb(170, 170, 170);
+  border-color: black;
+}
+
+.dark .item {
+  background-color: rgb(19, 19, 19);
+  border-color: black;
+}
+
+.dark .item h2, .dark .item p{
+  color: rgb(230, 230, 230);
+}
