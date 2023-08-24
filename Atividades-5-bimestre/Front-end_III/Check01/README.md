@@ -1,8 +1,3 @@
-# React + Vite
+# Trabalho feito para disciplina de Frontend III da DH
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para este primeiro entregável, colocaremos em prática os conhecimentos adquiridos sobre criação e gestão de formulários utilizando o React. Para isso, pedimos para você criar um pequeno formulário, o qual deverá permitir a qualquer pessoa interagir com ele inserindo os dados solicitados. Assim que esses dados forem inseridos, ao clicar no botão de “Enviar”, certas validações deverão ser realizadas para verificar se informações inseridas coincidem com os dados esperados. Se for assim, exibiremos na tela um componente com as informações recebidas, este componente deverá estar dentro de uma lista de elementos.
